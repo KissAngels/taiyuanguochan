@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\css\\incidentrecord.css",
+      "PackagePath": "staticwebassets\\css\\incidentrecord.css"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\css\\lib\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\lib\\all.min.css"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\alarmlog.js",
+      "PackagePath": "staticwebassets\\js\\alarmlog.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\current.js",
+      "PackagePath": "staticwebassets\\js\\current.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\event.js",
+      "PackagePath": "staticwebassets\\js\\event.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\harmonics.js",
+      "PackagePath": "staticwebassets\\js\\harmonics.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\incidentrecord.js",
+      "PackagePath": "staticwebassets\\js\\incidentrecord.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\lib\\echarts.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\echarts.min.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\lib\\exportUtil.js",
+      "PackagePath": "staticwebassets\\js\\lib\\exportUtil.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\lib\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\lib\\xlsx.full.min.js",
+      "PackagePath": "staticwebassets\\js\\lib\\xlsx.full.min.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\meterhd.js",
+      "PackagePath": "staticwebassets\\js\\meterhd.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\newFile.js",
+      "PackagePath": "staticwebassets\\js\\newFile.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\powerdegree.js",
+      "PackagePath": "staticwebassets\\js\\powerdegree.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\pstandplt.js",
+      "PackagePath": "staticwebassets\\js\\pstandplt.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\sagswell.js",
+      "PackagePath": "staticwebassets\\js\\sagswell.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\transient.js",
+      "PackagePath": "staticwebassets\\js\\transient.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\voltage.js",
+      "PackagePath": "staticwebassets\\js\\voltage.js"
+    },
+    {
+      "Id": "D:\\电力监控-太原卫星发射（国产化）\\04-软件部署\\03-视图页面\\PowerQuality\\PowerQuality\\wwwroot\\js\\waveform.js",
+      "PackagePath": "staticwebassets\\js\\waveform.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PowerQuality.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PowerQuality.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PowerQuality.props",
+      "PackagePath": "build\\PowerQuality.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PowerQuality.props",
+      "PackagePath": "buildMultiTargeting\\PowerQuality.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PowerQuality.props",
+      "PackagePath": "buildTransitive\\PowerQuality.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

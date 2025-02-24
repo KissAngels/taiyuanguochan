@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件记录 - PM8000电能质量监测系统</title>
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/incidentrecord.css" rel="stylesheet" />
+    <link href="~/css/lib/all.min.css" rel="stylesheet" />
+    <script src="~/js/lib/xlsx.full.min.js"></script>
+    <script src="~/js/lib/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>PM8000监测系统</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../Home/incidentrecord"><i class="fas fa-history"></i>概览</a></li>
+                <li><a href="../Home/sagswell"><i class="fas fa-history"></i>骤升骤降事件</a></li>
+                <li><a href="../Home/transient"><i class="fas fa-history"></i>瞬态事件事件</a></li>
+                <li><a href="../Home/waveform"><i class="fas fa-history"></i>波形数据</a></li>
+                <li><a href="../Home/event"><i class="fas fa-history"></i>仪表日志</a></li>
+                <li><a href="../Home/meterbase"><i class="fas fa-history"></i>基础数据-历史</a></li>
+                <li><a href="../Home/meterbasedetail"><i class="fas fa-history"></i>基础数据-实时</a></li>
+                <li><a href="../Home/pstandplt"><i class="fas fa-history"></i>闪变数据</a></li>
+                <li class="active"><a href="../Home/meterhd"><i class="fas fa-history"></i>谐波数据</a></li>
+                <li><a href="../Home/powerdegree"><i class="fas fa-history"></i>电度数据</a></li>
+                <li><a href="../Home/alarmlog"><i class="fas fa-history"></i>报警数据</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header>
+                <div class="header-title">
+                    <h1>谐波数据</h1>
+                </div>
+                <div class="user-info">
+                    <span class="time" id="currentTime"></span>
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="filter-section">
+                    <div class="filter-group">
+                        <label>时间范围：</label>
+                        <input type="datetime-local" id="startTime">
+                        <span>至&nbsp;&nbsp;</span>
+                        <input type="datetime-local" id="endTime">
+                        <label style="margin-left: 20px;">设备列表：</label>
+                        <select id="meterList">
+                        </select>
+                    </div>
+                </div>
+
+                <div class="event-table-section">
+                    <div class="table-header">
+                        <h3>事件记录</h3>
+                        <div style="margin:65px 0px;">
+                            <button class="export-btn" onclick="exportEvents()">
+                                <i class="fas fa-file-export"></i>导出记录
+                            </button>
+                        </div>
+                    </div>
+                    <table class="data-table" id="eventTable">
+                        <thead>
+                            <tr>
+                                <th>RecTime</th>
+                                <th>THDVa</th>
+                                <th>THDVb</th>
+                                <th>THDVc</th>
+                                <th>THDIa</th>
+                                <th>THDIb</th>
+                                <th>THDIc</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="~/js/lib/echarts.min.js"></script>
+    <script src="~/js/meterhd.js"></script>
+</body>
+</html>
